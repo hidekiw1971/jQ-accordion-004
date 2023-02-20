@@ -1,0 +1,62 @@
+@use "global" as *;
+
+.accordion {
+    background: rgba(46, 80, 230, 1);
+
+    @include mq(md) {
+        // 
+    }
+}
+
+.accordion-title {
+    background: rgba(38, 134, 252, 1);
+
+    @include mq(md) {
+        // 
+    }
+}
+
+.accordion-content {
+    display: none; // 最初から全て展開させておきたい時、この記述は不要。
+    background: rgba(36, 182, 242, 1);
+
+    @include mq(md) {
+        // 
+    }
+}
+
+// 矢印
+.accordion-title {
+    position: relative;
+
+    @include mq(md) {
+        // 
+    }
+}
+
+.accordion-title::after {
+    content: "";
+    display: block;
+    width: rem(8);
+    height: rem(8);
+    position: absolute;
+    top: 38%;
+    right: rem(25);
+    transform: rotate(135deg);
+    border-right: solid rem(2) rgba(255, 255, 255, 1);
+    border-top: solid rem(2) rgba(255, 255, 255, 1);
+    transition: transform 0.3s ease-in-out, top 0.3s ease-in-out;
+
+    @include mq(md) {
+        // 
+    }
+}
+
+.accordion-title.open::after {
+    top: 45%;
+    transform: rotate(-45deg);
+
+    @include mq(md) {
+        // 
+    }
+}

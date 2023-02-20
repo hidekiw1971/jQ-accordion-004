@@ -7,9 +7,9 @@
 - confirmed
 
 # browser ck
-- chrome ok ng
-- safari ok ng
-- firefox ok ng
+- chrome ok
+- safari ok
+- firefox ok
 - edge ok ng
 
 ## portfolio url:

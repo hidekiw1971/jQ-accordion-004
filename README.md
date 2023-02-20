@@ -4,7 +4,7 @@
 - 説明
 
 # w3c html/css ck
-- confirmed or unconfirmed
+- confirmed
 
 # browser ck
 - chrome ok ng
@@ -14,7 +14,7 @@
 
 ## portfolio url:
 
-- https://c-0000.wtb.cfbx.jp/
+- https://c-0122.wtb.cfbx.jp/
 
 ## codepen url:
 - https://xxx
@@ -24,7 +24,7 @@
 
 ## 更新履歴
 
-- 2023/mm/dd 初版 作成完了
+- 2023/2/21 初版 作成完了
 
 ## 環境起動手順
 - term起動
